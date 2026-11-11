@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - UniGestão</title>
+    <link rel="stylesheet" href="../css/contatos.css" />
+  </head>
+  <body>
+    <nav id="menu-lateral">
+      <img id="logo" src="../img/logotipo.png" alt="Logotipo UniGestão" />
+      <ul id="lista-menu">
+        <li><a id="link-inicio" href="../html/index.html">Início</a></li>
+        <li><a id="link-disciplinas" href="../html/disciplinas.html">Disciplinas</a></li>
+        <li><a id="link-horarios" href="../html/horarios.html">Horários</a></li>
+        <li><a id="link-provas" href="../html/provas.html">Provas</a></li>
+        <li><a id="link-links" href="../html/links.html">Links úteis</a></li>
+        <li><a id="link-contato" href="../html/contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div id="conteudo">
+      <header id="cabecalho">
+        <h1>UniGestão</h1>
+        <p>Sistema Acadêmico</p>
+      </header>
+
+      <main id="principal">
+        <h2>Fale com a secretaria</h2>
+
+        <form id="formulario">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Digite seu nome" />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="Digite seu e-mail" />
+
+          <label for="assunto">Assunto</label>
+          <select id="assunto">
+            <option>Dúvida sobre disciplinas</option>
+            <option>Dúvida sobre horários</option>
+            <option>Dúvida sobre provas</option>
+            <option>Outro assunto</option>
+          </select>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea
+            id="mensagem"
+            rows="6"
+            placeholder="Escreva sua mensagem"
+          ></textarea>
+
+          <button type="button" id="botao-enviar">Enviar</button>
+        </form>
+      </main>
+
+      <footer id="rodape">
+        <p>
+          UniGestão - Sistema Acadêmico &copy; 2026. Todos os direitos
+          reservados.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
