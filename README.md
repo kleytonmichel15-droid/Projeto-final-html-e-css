@@ -52,7 +52,6 @@ Não é preciso instalar nada nem usar servidor.
 ## Regras seguidas no código
 
 - **Um CSS por página HTML:** cada página carrega apenas o seu arquivo `.css`.
-- **Sem comentários** dentro dos códigos.
 - **Estilização por `id`:** o CSS usa seletores com cerquilha (`#menu-lateral`, `#card-adm`, `#tabela-provas`), e cada `id` aparece uma única vez por página.
 - **Exceção:** a legenda de cores dos horários usa **classes** (`.adm`, `.cont`, `.mat`, `.pes`, `.met`), porque a mesma cor se repete em várias células e um `id` não pode se repetir.
 - **Tags simples:** `nav`, `header`, `main`, `section`, `footer`, `table`, `ul`, `ol`, `details`, `form`, entre outras básicas.
@@ -82,14 +81,6 @@ Tiradas do logotipo:
 - Os links de portal do aluno, e-mail institucional e biblioteca estão com `#` e precisam receber os endereços reais. Só o link das normas ABNT aponta para um site de verdade.
 - O formulário de contato é **apenas visual**: o botão não envia mensagem.
 - O menu e o CSS base se repetem em todas as páginas, porque o projeto não usa JavaScript nem servidor. Para mudar uma cor ou um item do menu, é preciso alterar todos os arquivos.
-- A pasta `html/` contém um arquivo vazio chamado `contatos.html`, que não é usado pelo site. A página de contato é a `contato.html`, e o CSS dela se chama `contatos.css` (com "s"). Se quiser, apague o arquivo vazio.
-
-## Possíveis melhorias
-
-- Reaproveitar o menu e o CSS comum entre as páginas (com um servidor ou JavaScript).
-- Conectar o formulário de contato a um serviço que envie as mensagens.
-- Preencher os links reais da instituição.
-- Ajustar a carga horária de cada disciplina para bater com a quantidade de aulas do quadro de horários.
 
 ## Tecnologias
 
